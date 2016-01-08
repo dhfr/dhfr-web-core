@@ -13,6 +13,7 @@
         <primefaces-version>5.3.3</primefaces-version>
         <springfaces-version>2.4.0.RELEASE</springfaces-version>
         <springframework-version>3.2.16.RELEASE</springframework-version>
+        <java-web-api-version>7.0</java-web-api-version>
     </properties>
     <build>
         <plugins>
@@ -27,4 +28,13 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>${java-web-api-version}</version>
+            <scope>provided</scope>
+        </dependency>
+        
+    </dependencies>
 </project>
