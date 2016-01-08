@@ -9,10 +9,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <mojarra-version>2.2.10</mojarra-version>
-        <primefaces-version>5.3.3</primefaces-version>
-        <springfaces-version>2.4.0.RELEASE</springfaces-version>
-        <springframework-version>3.2.16.RELEASE</springframework-version>
+        <mojarra-version>2.2.12</mojarra-version>
+        <primefaces-version>5.3.4</primefaces-version>
+        <springfaces-version>2.4.2.RELEASE</springfaces-version>
+        <springframework-version>4.2.4.RELEASE</springframework-version>
         <java-web-api-version>7.0</java-web-api-version>
     </properties>
     <build>
