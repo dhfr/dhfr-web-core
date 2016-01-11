@@ -12,7 +12,7 @@
         <mojarra-version>2.2.12</mojarra-version>
         <primefaces-version>5.3.4</primefaces-version>
         <primefaces-extension-version>3.2.0</primefaces-extension-version>
-        <omnifaces-version>2.2</omnifaces-version>
+        <omnifaces-version>1.12.1</omnifaces-version>
         <primefaces-theme-version>1.0.10</primefaces-theme-version>
         <springfaces-version>2.4.2.RELEASE</springfaces-version>
         <springframework-version>4.2.4.RELEASE</springframework-version>
