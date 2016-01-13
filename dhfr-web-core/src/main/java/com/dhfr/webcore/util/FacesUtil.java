@@ -30,7 +30,19 @@ public class FacesUtil {
         return (String) getExternalContext()
                 .getRequestParameterMap().get(name);
     }
+// JSF general ----------------------------------------------------------------------------------------------------
 
+    /**
+     * Returns the current faces context.
+     * <p>
+     * <i>Note that whenever you absolutely need this method to perform a
+     * general task, you might want to consider to submit a feature request to
+     * OmniFaces in order to add a new utility method which performs exactly
+     * this general task.</i>
+     *
+     * @return The current faces context.
+     * @see FacesContext#getCurrentInstance()
+     */
     public static FacesContext getFacesContext() {
         return FacesContext.getCurrentInstance();
     }
@@ -94,7 +106,7 @@ public class FacesUtil {
         MethodExpression methodExpression;
         ExpressionFactory ef = getExpressionFactory();
         if (ef != null) {
-            methodExpression = ef.createMethodExpression(getELContext(), 
+            methodExpression = ef.createMethodExpression(getELContext(),
                     expression, null, new Class[]{ActionEvent.class});
         } else {
             methodExpression = null;
